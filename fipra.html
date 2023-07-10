@@ -778,6 +778,22 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/v52afc6f149f6479b8c77fa569edb01181681764108816" integrity="sha512-jGCTpDpBAYDGNYR5ztKt4BQPGef1P0giN6ZGVUi835kFF88FOmmn8jBQWNgrNd8g/Yu421NdgWhwQoaOPFflDw==" data-cf-beacon='{"rayId":"7e4716a6ab210d95","token":"405b708a9b0242e88fda34dc27903686","version":"2023.4.0","si":100}' crossorigin="anonymous"></script>
-<script src="./wer.js"></script>
+<script>
+	  
+const swiper = new Swiper('.swiper', {
+
+loop: true,
+pagination: {
+  el: '.swiper-pagination',
+},
+navigation: {
+  nextEl: '.swiper-button-next',
+  prevEl: '.swiper-button-prev',
+},
+scrollbar: {
+  el: '.swiper-scrollbar',
+},
+});
+</script>
 </body>
 </html>
